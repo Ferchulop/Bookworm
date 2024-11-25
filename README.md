@@ -3,7 +3,7 @@ Bookworm es una app desarrollada en SwiftUI, utilizando SwiftData. Para gestiona
 
 ## Características 
 
-- Gestión de libros: Añade libros con detalles como título, autor, género, reseña, calificación y fecha de inclusión.
+- Gestión de libros: Añade libros con detalles como título, autor, género, reseña, calificación y fecha de inclusión. Interfaz personalizada para mostrar en rojo y con emoji descriptivo dependiendo de la calificación
 - SwiftData: Para la persistencia de datos, dónde almaceno los libros de manera permanente, con la clase Book y uso de @Model(gestionar, almacenar y consultar los datos).
 - Visualización de detalles y formulario para añadir libro: uso del property wrapper @Environment(gestionará las operaciones CRUD), alertas personalizadas, añadido de fecha, ScrollView para visualizar la vista, Picker(seleccion genero), .disabled(inhabilitar).
 - Vistas personalizadas para calificacion: uso de @Binding(comparte y modifica el valor de calificación entre vista hija a padre), funcion para retornar imagenes segun calificacion en ContentView, uso de switch para contemplar las posibles calificaciones.
