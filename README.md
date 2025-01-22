@@ -1,7 +1,7 @@
 # Bookworm
 Bookworm es una app desarrollada en SwiftUI, utilizando SwiftData. Para gestionar y almacenar libros de forma persistente. Permite a los usuarios añadir, editar y eliminar libros, así como visualizar sus detalles. Ideal para quienes desean llevar un registro de su colección de libros junto con reseñas y calificaciones.
 
-## Características 
+## Características
 
 - Gestión de libros: Añade libros con detalles como título, autor, género, reseña, calificación y fecha de inclusión. Interfaz personalizada para mostrar en rojo, alertas de borrado de libro y con emoji descriptivo dependiendo de la calidad de la  calificación.
 - SwiftData: Para la persistencia de datos, dónde almaceno los libros de manera permanente, con la clase Book y uso de macro @Model(gestionar, almacenar y consultar los datos).
